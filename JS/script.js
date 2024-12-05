@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", (function () { document.body.style
 
 // List of verses and texts to be updated
 // List of verses and texts for each day
+
 const verses = [
     { date: "2024-12-01", verse: "Proverbs 2:12", text: "Wisdom will save you from the ways of wicked men, from men whose words are perverse" },
     { date: "2024-12-02", verse: "Micah 6:11", text: "Shall I acquit a man with dishonest scales, with a bag of false weights?" },
@@ -43,6 +44,15 @@ const verses = [
     { date: "2024-12-29", verse: "Joshua 6:4", text: "Have seven priests carry trumpets of rams' horns in front of the ark. On the seventh day, march around the city seven times, with the priests blowing the trumpets." },
     { date: "2024-12-30", verse: "Psalm 10:13", text: "Why does the wicked man revile God? Why does he say to himself, \"He won't call me to account?\""},
     { date: "2024-12-31", verse: "Luke 1:76", text: "And you, my child, will be called a prophet of the Most High; for you will go on before the Lord to prepare the way for him." },
+    // New verses added with consecutive dates
+    { date: "2025-01-01", verse: "Joshua 7:8", text: "O Lord, what can I say, now that Israel has been routed by its enemies?" },
+    { date: "2025-01-02", verse: "Luke 1:45", text: "Blessed is she who has believed that what the Lord has said to her will be accomplished!" },
+    { date: "2025-01-03", verse: "Luke 2:15", text: "When the angels had left them and gone into heaven, the shepherds said to one another, 'Let's go to Bethlehem and see this thing that has happened, which the Lord has told us about.'" },
+    { date: "2025-01-04", verse: "Luke 3:4", text: "As is written in the book of the words of Isaiah the prophet: 'A voice of one calling in the desert, \"Prepare the way for the Lord, make straight paths for him.\"'" },
+    { date: "2025-01-05", verse: "Philippians 4:13", text: "I can do everything through him who gives me strength." },
+    { date: "2025-01-06", verse: "John 3:16", text: "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life." },
+    { date: "2025-01-07", verse: "Romans 8:28", text: "And we know that in all things God works for the good of those who love him, who have been called according to his purpose." },
+    { date: "2025-01-08", verse: "Jeremiah 29:11", text: "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future." },
 ];
 
 // Function to change the content based on the current date
