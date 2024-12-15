@@ -1,4 +1,4 @@
-<img src="IMG/hero.jpg">
+<img src="IMG/hero.png">
 
 <h2 align="center">Página: <a href="https://daily-bible.vercel.app/">daily-bible.com</a></h2>
 
